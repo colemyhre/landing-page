@@ -1,0 +1,32 @@
+/* Styles - "Landing Page */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+  background: #1F2937;
+}
+
+.info {
+
+}
+
+.quote {
+  background: #E5E7EB;
+}
+
+.banner {
+  background: #3882F6;
+}
+
+.footer {
+  background: #1F2937;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
