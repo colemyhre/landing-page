@@ -3,22 +3,32 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    font-family: roboto, sans-serif;
 }
 
 .header {
   background: #1F2937;
+  display: flex;
+  flex-direction: column;
+  padding: 0% 15% 5% 15%;
+  gap: 40px;
 }
 
 .info {
-  
+  padding: 3% 20% 5% 20%;
+  text-align: center;
 }
 
 .cards {
     display: flex;
+    justify-content: center;
+    gap: 8px;
 }
 
 .container {
-    border: 8px #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 20px;
     height: 100px;
     width: 100px;
     
@@ -26,15 +36,28 @@ body {
 
 .quote {
   background: #E5E7EB;
+  padding: 5% 20% 5% 20%;
+  
+}
+
+.thor {
+    text-align: right;
+    font-weight: bold;
 }
 
 .banner {
   background: #3882F6;
+  border-radius: 8px;
   display: flex;
+  padding: 35px;
+  margin:  8% 15%;
+  justify-content: space-evenly;
 }
 
 .footer {
   background: #1F2937;
+  text-align: center;
+  padding: 1% 20% 1% 20%;
 }
 
 ul {
@@ -43,31 +66,42 @@ ul {
     padding: 0;
     color: #E5E7EB;
     font-size: 18px;
+    margin-left: auto;
+}
+
+li {
+    display: inline-block;
 }
 
 .dark-bold {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    margin-bottom: 25px;
 }
 
 .bold-text {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight:900;
     color: #F9FAF8;
 }
 
-.text {
+.text, .footer {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .topline {
     display: flex;
+    align-items: center;
+    
 }
 
 .header-content {
     display: flex;
+    justify-content:space-between;
+    padding: 5px;
+    align-items:center;
 }
 
 .logo {
@@ -77,6 +111,8 @@ ul {
 
 button {
     background: #3882F6;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 .quote-text {
@@ -84,4 +120,30 @@ button {
     color: #1F2937;
     font-weight: lighter;
     font-style: italic;
+}
+
+.sign-up {
+    color:#E5E7EB;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+img { 
+    max-width: 60%;
+    height: auto;
+}
+
+.banner > .sign-up {
+    border: 2px solid #E5E7EB;
 }
